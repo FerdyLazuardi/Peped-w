@@ -81,7 +81,7 @@ export default function Sidebar({ isOpen, toggleSidebar }) {
                         <div className="brand-icon">
                             <img src={logoUrl} alt="Amartha Logo" />
                         </div>
-                        <span>Peped AI</span>
+                        <span>Peped</span>
                     </div>
                     {isOpen && (
                         <button onClick={toggleSidebar} className="hamburger-btn" title="Close sidebar">

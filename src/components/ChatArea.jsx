@@ -131,7 +131,7 @@ export default function ChatArea({ isOpen, toggleSidebar }) {
                 >
                     <PanelLeft size={24} color="#1A1A2E" />
                 </button>
-                <span className="app-title">Peped AI</span>
+                <span className="app-title">Peped</span>
             </div>
 
             {isWelcomeScreen ? (
